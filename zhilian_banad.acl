@@ -459,7 +459,7 @@
 (^|\.)\atj\.org\.tw$
 (^|\.)\atlaspost\.com$
 (^|\.)\atnext\.com$
-(^|\.)\autoproxy-gfwlist\.googlecode\.com$
+(^|\.)\googlecode\.com$
 (^|\.)\avaaz\.org$
 (^|\.)\avidemux\.org$
 (^|\.)\avoision\.com$
@@ -570,7 +570,6 @@
 (^|\.)\bugclub\.org$
 (^|\.)\bullog\.org$
 (^|\.)\bullogger\.com$
-(^|\.)\businesstimes\.com\.cn$
 (^|\.)\businessweek\.com$
 (^|\.)\buugaa\.com$
 (^|\.)\buzzurl\.jp$
@@ -774,7 +773,6 @@
 (^|\.)\delcamp\.net$
 (^|\.)\delicious\.com$
 (^|\.)\democrats\.org$
-(^|\.)\derekhsu\.homeip\.net$
 (^|\.)\desc\.se$
 (^|\.)\designerol\.com$
 (^|\.)\deutsche-welle\.de$
@@ -1031,7 +1029,7 @@
 (^|\.)\fzh999\.com$
 (^|\.)\fzh999\.net$
 (^|\.)\gabocorp\.com$
-(^|\.)\gaeproxy\.googlecode\.com$
+(^|\.)\googlecode\.com$
 (^|\.)\galenwu\.com$
 (^|\.)\gamebase\.com\.tw$
 (^|\.)\gamer\.com\.tw$
@@ -1071,7 +1069,6 @@
 (^|\.)\getsocialscope\.com$
 (^|\.)\getyouram\.com$
 (^|\.)\gfw\.org\.ua$
-(^|\.)\gfwinterceptor\.googlecode\.com$
 (^|\.)\ggssl\.com$
 (^|\.)\ghostery\.com$
 (^|\.)\giga-web\.jp$
@@ -1088,7 +1085,6 @@
 (^|\.)\globalvoicesonline\.org$
 (^|\.)\gmbd\.cn$
 (^|\.)\gmhz\.org$
-(^|\.)\goagent\.googlecode\.com$
 (^|\.)\godfootsteps\.org$
 (^|\.)\golang\.org$
 (^|\.)\goldenmelody\.com\.tw$
@@ -1131,7 +1127,6 @@
 (^|\.)\greenvpn\.net$
 (^|\.)\gs-discuss\.com$
 (^|\.)\gstatic\.com$
-(^|\.)\gtap\.googlecode\.com$
 (^|\.)\gtricks\.com$
 (^|\.)\guancha\.org$
 (^|\.)\guishan\.org$
@@ -2775,20 +2770,3 @@
 
 [bypass_list]
 #直连列表
-# 本地/局域网地址
-^(.*\.)?local$
-^(.*\.)?localhost$
-^(.*\.)?ip6-localhost$
-^(.*\.)?ip6-loopback$
-
-::ffff:0:0:0:0/1
-::ffff:128:0:0:0/1
-0.0.0.0/8
-10.0.0.0/8
-127.0.0.0/8
-169.254.0.0/16
-172.16.0.0/12
-192.0.0.0/29
-192.0.2.0/24
-192.88.99.0/24
-192.168.0.0/16
